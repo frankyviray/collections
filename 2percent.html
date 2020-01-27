@@ -16,25 +16,25 @@
     <!-- Our own CSS stylesheet -->
     <link rel="stylesheet" href="assets/css/styles.css" media="screen">
 
-<style>
-    .button {
-        background-color: #4aaaa5;
-        /* Yellow */
-        border: none;
-        color: white;
-        padding: 20px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        margin: 4px 2px;
-        cursor: pointer;
-    }
+    <style>
+        .button {
+            background-color: #4aaaa5;
+            /* Yellow */
+            border: none;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
 
-    .button1 {
-        border-radius: 2px;
-    }
-</style>
+        .button1 {
+            border-radius: 2px;
+        }
+    </style>
 </head>
 
 <body>
@@ -76,23 +76,93 @@
                     </center>
                     <hr />
                     <!-- <img src="assets/imgs/github.png" alt="" id="about-image" /> -->
-                    <h2><br><b>(Voicemail)</b></br></h2><h3>Hello <b>(Customer Name)</b>, its <b>(Your Name)</b> from Ace Industrial Supply please call me back at 800-223-3129 ext<b> (Your Extension Number)</b>. To get a discount on the order. Ace Industrial Supply.</h3>
-                    <h2><br><b>(2% Call)(First 30 Days)</b></br></h2><h3>(If secy/emp or someone else says it's not CUST) Oh I thought it was his cell phone, is <b>(Customers Name)</b> around? MAYBE YOU CAN HELP ME OUT, its Ace Industrial Supply just wanted to make sure you got the order okay?  You know anything about it? No worries well will call back another time...</h3>
-                    <h2><b>INTRO 1: (Customers Name)</b> How are you doing out there (Customers Name)?</h2>
-                    <h3><b>Its Ace Industrial Supply....</b>(Calling from Customer Care)...(Real Quick(I Know You're busy) just a courtesy call wanted to make sure you got the order okay, right?</h3>
-                    <h3>A) Just a reminder we got you on an open 30-Day Bill.  Please Call customer care anytime and we'll take care of you down here...) I wanted to offer a 2% discount for some savings <b>(if you'd like to pay today with a VISA, MASTER, or a Check by phone)</b> or</h3>
-                    <h3>I wanted to offer you a 2% discount today for some savings.......</h3>
-                    <h3>B) (I seen you paid last time with a card ending in XXXX (read last 4 digts of card number) or did you need to give me a new one today?)</h3>
-                    <h3>C) Did you want to put it on the card you did with last, and i'll send a confirmation as soon as it goes thorugh.  If that's okay with you?</h3>
-                    <h3><b>1) (No Payment)</b> no worries you're on an open 30-day billing please call customer care anytime and well take care of you down here. Bye for now.</h3>
-                    <h3>2) <b>Call Back:</b> When did you want us to call you back for payment?</h3>
-                    <h3>3) <b>I want to return it:</b>What's going on with the order? I'm just curious... (SEE GTS SCRIPT) What's going on out there?</h3>
-                    <h3><b>(I never got the order)</b><b>NO</b> Well it should be there by now, let me check the tracking info and see what's going on.... where did you have us ship it, the home or business?<b>Give me a moment here(go to UPS or Canada POST, put the tracking #</b> Let me check while I got you on the phone... UPS is saying they Delivered it on ______ (read date time and where they left it and where they left it) Then ask them maybe someone put it away and forgot to mention it....</h3>
-                    <h3>(No tracking info?)(Get tracking # for Canada Fulfulment email Angie Cortez)(Tracking # if we shipped it from our warehouse email Karla Ramirez</h3>
-                    <h3><b>Partial Payment: YES</b> YOU CAN DO A PARTIAL PAYMENT can you do half today?</h3>
-                    <h3><b>Read Tracer disclosure if he CONFIRMS HE never got it</b></h3>
+                    <center>
+                        <h2><br><b>(Voicemail)</b></br></h2>
+                    </center>
+                    <h3>“Hello (customer name), this is (_________) from ace industrial supply. Calling about
+                        (Invoice#), we offer a 2% discount
+                        to customers that pay within the first 10 business days. If you would like to take advantage
+                        of that, call me back at
+                        1(800) 223 3129 (Ext.)”</h3>
+                    <center>
+                        <h2><br><b>2% Call (10 Days Before Due Date)</b></br></h2>
+                    </center>
+                    <h3><br><b>If Someone aside from the customer answers:</b></h3>
+                    <h3>“It’s not (Customer name), I thought it was his cell phone. Is he around?”
+                        <p>“Well, maybe you can help me out.”</p>
+                        <p>“This is Ace Industrial Supply. Just wanted to make sure that they received their order, do
+                            you know anything about?”</p>
+                        <p>“If not, no worries. We can call back another time.”</p>
+                    </h3>
+                    <h2><b>INTRO 1:</b></h2>
+                    <h2>
+                        <p><b>Hello(Customers Name)</b> How are you doing out there (Customers Name)?</p>
+                    </h2>
+                    <h2>
+                        <center><b>(Say their name twice to really grab their attention)</b></center>
+                    </h2>
+                    <h3>“It’s (_______) from Ace Industrial Supply, calling from Customer Care. Real quick, I know
+                        you’re busy. Just a quick
+                        courtesy call, wanted to make sure you received the order okay.”</h3>
+                    <h3>“Just a reminder we have you on an open 30-day bill. Please Call customer care anytime and we’ll
+                        take care of you down
+                        here. I wanted to offer you a 2% discount to save you money today, if you’d like to pay over the
+                        phone today with a
+                        visa, Mastercard, or a check by phone.</h3>
+                    <center>
+                        <h3><b>If we have a credit card on file:</b></h3>
+                    </center>
+                    <h3>
+                        <p>“I wanted to offer you a 2% discount to save you some money today. I can see that you paid
+                            your
+                            last invoice with a card
+                            ending in (last 4 digits). Let’s put it on the same card you used with us the last time and
+                            I’ll
+                            send you over a receipt
+                            once it goes through.”</p>
+                        <p>“Great, feel free to call customer care anytime and well take care of you down here. Bye for
+                            now.”</p>
+                    </h3>
+                    <center>
+                        <h3><b>***If customer declines the discount, always alternate payment options such as partial or
+                                postdated payments***</b></h3>
+                    </center>
+                    <center>
+                        <h4><b>Other Examples of reasons customer can't pay</b></h4>
+                    </center>
+                    <h3><b><u>Call Back:</u></b>Customer: “I can’t do it right now.<p>Collector: “When did you want us
+                            to call you back for payment?”</p>
+                        <p>(Set call back date in calendar)</p>
+                    </h3>
 
-                    
+                    <h3><u><b>Wants to return:</b></u>“What’s going on with the order? I’m just curious.”<p>Figure out
+                            if it is a quality or a price issue and handle accordingly. <b>(Refer to GTS Script)</b></p>
+                    </h3>
+
+                    <h3><b><u>Never received the order:</u></b>Customer: “I never received that order.”<p>Collector:</p>
+                        <p>“Well, it should have arrived by now, let me check the tracking info and see where it’s at
+                            for you.”</p>
+                        <p>“Where did you have us ship it, your business or residence?”</p>
+                        <p>“Give me a moment here, let me check that while I have you on the phone.”</p>
+                    </h3>
+                    <center>
+                        <h3><b>***Pull Tracking Number up Online***</b></h3>
+                    </center>
+                    <center>
+                        <h3>“UPS shows they Delivered it on (Date/time/location shown in tracking info)”</h3>
+                    </center>
+                    <center>
+                        <h3>“Have you checked with everyone there to see if they received anything?”</h3>
+                    </center>
+                    <center>
+                        <h3><b>**No tracking info? Get tracking # for Canada fulfilment by emailing Angie Cortez or if
+                                we shipped it from our warehouse
+                                email Karla Ramirez. **</b></h3>
+                        <center>
+                            <h3><b>(Refer to Tracer disclosure if customer confirms that he never received the
+                                    order)</b></h3>
+                        </center>
+                    </center>
                 </article>
             </div>
             <div class="col-md-12">
@@ -109,10 +179,13 @@
                         <a class="btn btn-warning btn-lg" href="calltag.html" role="button">Call Tag</a>
                         <a class="btn btn-info btn-lg" href="upstracer.html" role="button">UPS Tracer</a>
                         <a class="btn btn-success btn-lg" href="upsfollowup.html" role="button">UPS Tracer Follow Up</a>
-                        <a class="btn btn-danger btn-lg" href="freightnhandling.html" role="button">Freight and Handling</a>
-                        <a class="btn btn-success btn-lg" href="ctagnouse1stonly.html" role="button">Call Tag Not in use 1st time Customer</a>
+                        <a class="btn btn-danger btn-lg" href="freightnhandling.html" role="button">Freight and
+                            Handling</a>
+                        <a class="btn btn-success btn-lg" href="ctagnouse1stonly.html" role="button">Call Tag Not in use
+                            1st time Customer</a>
                         <a class="btn btn-danger btn-lg" href="calltagemail.html" role="button">Call Tag Email</a>
-                        <a class="btn btn-warning btn-lg" href="ctagnouseapaid.html" role="button">Call tag Not in use Ace Paid</a>
+                        <a class="btn btn-warning btn-lg" href="ctagnouseapaid.html" role="button">Call tag Not in use
+                            Ace Paid</a>
 
                     </div>
                 </aside>
